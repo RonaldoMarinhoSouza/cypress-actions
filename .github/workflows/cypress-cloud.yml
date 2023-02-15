@@ -20,7 +20,7 @@ jobs:
           install-command: yarn install
           browser: Chrome
           record: true
-          group: UI Eletron
+          group: UI Chrome
           spec: ${{ github.event.inputs.spec }}
         env: 
           CYPRESS_RECORD_KEY: 9cc6d7ce-d0d9-4d92-ad65-296e2586299c
