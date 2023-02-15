@@ -18,9 +18,9 @@ jobs:
         uses: cypress-io/github-action@v5.0.9
         with:
           install-command: yarn install
-          browser: Chrome
+          browser: electron
           record: true
-          group: UI Chrome
+          group: UI Electron
           spec: ${{ github.event.inputs.spec }}
         env: 
           CYPRESS_RECORD_KEY: 9cc6d7ce-d0d9-4d92-ad65-296e2586299c
